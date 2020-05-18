@@ -1,0 +1,72 @@
+
+        .container{
+                margin: auto;
+                width:1024;
+                           
+        }
+        .body{
+            background-color: aquamarine;
+        }
+        .header{
+            background-color:rgb(23, 159, 155);
+            text-align: center;
+            
+            width: 1024px;
+            height: 180px;
+            font-size:30 px;
+            
+        }    
+
+        .kotak
+{
+    width: 335px;
+    margin: 10px;
+    padding: 5px;
+    float: left;
+    border: 1px dashed grey;
+} 
+
+
+.box_matkul
+{
+    width: 350px;
+    margin: 10px;
+    padding: 5px;
+    border: 1px dashed grey;
+    float: right;
+}
+        
+        .badan{
+            height: 600px;
+            width:1024px;
+     
+        }
+        .article{
+            float: left;
+                    	        
+	        height: auto;
+            width: 750px;	
+                    }
+        .sidebar{
+            float:right;
+            background-color:rgb(152, 186, 186);
+            height: 100%;
+	        width: 264px;
+            }
+        .footer{
+           background-color:rgb(119, 150, 157);
+            height: 70px;
+            width: 1024px;
+            font-size: 25px;
+            text-align:center;
+            padding-top: 40px;  
+        }
+        img{
+            padding-top: 40px;
+            padding-left :10px;
+        }
+        li{
+            list-style: none;
+            padding:30px;
+        }
+

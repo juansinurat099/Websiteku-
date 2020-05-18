@@ -1,0 +1,132 @@
+<!--
+    Nama File   : index.html
+    NIM         : 11S17056
+    Kelas       : 13 IF 2
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Layout1 dengan  Bootstrap</title>
+        <meta charset = "utf-8">
+        <meta charset = "viewport" content = "width = device-width, initial-scale=1"> 
+        <link rel= "stylesheet" href= "bootstrap-3.3.7-dist/css/bootstrap.min.css">
+        <script src= "js/jquery-3.2.1.min.js"></script>
+        <script src ="bootstrap-3.3.7-dist/css/bootstrap.min.js"> </script>
+    </head>
+<body>
+            
+        <!---Ini bagian Header atas-->
+        <style>
+            .jumbotron{
+                background-color: rgb(71, 102, 113); 
+            }
+            .footer{
+           background-color:rgb(103, 107, 108);
+            font-size: 20px;
+            text-align:center;
+            padding-top: 20px;  
+        }   
+</style>
+        <header class= "jumbotron" > 
+            <div class = "container text-center"> 
+                    <img src="Del.jpg" width="100" height="100" align="left" >
+                <h1> Situs Web S1 Informatika 11S17056</h1>
+                 <P> Ucapan Selamat Datang Di..</p>
+            </div>
+        </header> 
+     <!--Ini Bagian Konten-->
+     <tr>
+     <section class="container">
+           
+        <table width = "100%">
+                <tr>
+                        <td>
+                                <article class="col-sm-12">
+                        <font size="6"><b>Data Akademik</b></font>
+                   <br>
+                   <font size = 4><b> Mahasiswa 11S17056 Juan Sinurat</b> </font>
+                       <hr size="3px" width="400" align ="left" color="black">
+                       <form name="form" onsubmit="return validateForm()"  method="GET">
+                               <fieldset>
+                           <legend>Form Informasi TA</legend>
+                           <br>
+                           <table>
+             <tr><td> NIM</td><td><input type =”text” name=”nim” placeholder="NIM..." ></td></tr> 
+             <tr><td> Nama</td><td><input type =”text” name=”nama” placeholder= "Nama..." ></td></tr> 
+             <tr><td> Angkatan</td><td><select name = "Angkatan">
+                       <option value = "2017">2019</option>
+                       <option value = "2017">2018</option>
+                       <option value = "2017">2017</option>
+                       <option value = "2017">2016</option>
+                   </td></tr> 
+       
+       <tr><td>Program Studi </td> <td> <input type = "radio" name = "Prodi" value = "D3TI" checked/>D3TI
+                       <input type = "radio" name = "Prodi" value = "D4TI" checked/>D4TI
+                       <input type = "radio" name = "Prodi" value = "S1TI" checked/>S1TI
+                   </td></tr>       
+       <tr> <td>Judul TA </td><td><textarea name="komentar"  cols="50"> Text area</Textarea></TextArea></textarea></td></tr>
+       <tr><td>Pembimbing </td> <td> <input type = "text" name = "dosen" list= "dosen" placeholder="input...">
+           <datalist id="Dosen">
+               <option value="Inte">Inte</option>
+               <option value="Lit Malem">Lit Malem</option>
+               <option value="Yaya Setiadi">Yaya Setiadi</option>
+                   
+           </datalist>
+       </td></tr>  
+       </fieldset>  
+       <tr><td><input type="submit" value="Submit" ></td></tr>                                 
+               </form>      
+                       
+                    </article>
+                </td>
+            </table>
+<!--Ini Bagian Header Menu-->
+            <td > 
+          <nav class="navbar navbar-inverse" style="height: 300px; text-align:left; "  >
+        <div class="container-fluid" >
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon"></span>
+                    <span class="icon"></span>
+                    <span class="icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="navbar bg-light">
+                    <li><a href="Index.html">Home</a></li>                    
+                    <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            Profil
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="Profil.html">Profil diri</a></li>
+                            <li><a href="#">Profil asrama</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="Akademik.html">Data Akademis</a></li>
+                    <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                Administrasi
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Kartu Rencana Studi</a></li>
+                                <li><a href="Administrasi5.html">Kartu Hasil Studi</a></li>
+                                </ul>
+                        </li>
+            </div>
+        </div>
+      </nav>
+    </td>
+  </tr>
+</table>
+        <!--Ini Bagian Footer-->
+        <hr style="color: black;">
+        <div class="footer">
+        <footer class="container-fluid text-center">
+        <p> Copyright @PABWE-2019</p>
+        </footer></div>
+    
+   
+        </body>
+        </html>
