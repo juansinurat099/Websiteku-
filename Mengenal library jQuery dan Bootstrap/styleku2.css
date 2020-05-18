@@ -1,0 +1,27 @@
+table{
+    width: G20px;
+    font-family : Arial;
+    background-color: #F6F5F4;
+    border: 1px solid #c5c5c5;
+}
+table th{
+    padding : 10px ;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 1px 1px - #6E6964;
+    background: -moz-linear-gradient
+    (center top, #c8BFB2 0%, #A49D92 100%)
+    repeat scroll 0 0 transparent;
+}
+table tr td{
+    padding: 7px;
+    font-size: 13px;
+    color: #666;
+    background: #F8F8F8;
+    border-top: 1px solid #ddd;
+}
+table tr.style td {
+    background: #F1ECE2;
+}
+

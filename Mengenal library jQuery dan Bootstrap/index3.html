@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>.:jQuery Events:.</title>
+        <script type = "text/javascript" src= "js/jquery-3.2.1.js"></script>
+        <link type = "text/css" href="styleku2.css" rel= "stylesheet"/>
+        <script>
+            $(document).ready(function(){
+                $("#even").click(function(){ 
+                $('tr').removeClass('stlyle');
+                $('table tbody tr:odd').addClass('style');
+            });
+            $("#odd").click(function(){ 
+                $('tr').removeClass('stlyle');
+                $('table tbody tr:even').addClass('style');
+            });
+        });
+            </script>
+    </head>
+    <body>
+        <button id = "odd"> Ganjil </button>
+        <button id = "even"> Genap </button>
+        <table style="">
+            <thead>
+                <tr>
+                    <th>NIM</th>
+                    <th>NAMA</th>
+                    <th>Kelas</th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Jumlah Mahasiswa</td>
+                </tr>
+            </tfoot>
+        <tbody>
+            <tr>
+                <td>11S17001</td>
+                <td>Arie Satia Dharma</td>
+                <td>13IF1</td>
+            </tr>
+            <tr>
+                <td>11S17002</td>
+                <td>Apria Theovani Nainggolan</td>
+                <td>13IF1</td>
+            </tr>
+            
+            <tr>
+                <td>11S17003</td>
+                <td>Ranty Deviana Siahaan</td>
+                <td>13IF1</td>
+            </tr>
+            
+            <tr>
+                <td>11S17004</td>
+                <td>Romasi Gohana Sibarani</td>
+                <td>13IF2</td>
+            </tr>
+
+            
+            <tr>
+                <td>11S17005</td>
+                <td>Dwide Elizabeth Sembiring</td>
+                <td>13IF2</td>
+            </tr>
+
+            
+            <tr>
+                <td>11S17006</td>
+                <td>Sahala Zico Simamora Manalu</td>
+                <td>13IF2</td>
+            </tr>
+        </tbody>
+        </table> 
+    </body>
+</html>
