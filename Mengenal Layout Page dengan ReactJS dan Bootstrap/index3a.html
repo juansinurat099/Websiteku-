@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ReactJS 1</title>
+    <script type="text/javascript" src="js/react.min.js"></script>
+    <script type="text/javascript" src="js/react-dom.min.js"></script>
+    <script src="js/browser-5.8.24.min.js"></script>
+</head>
+<body>
+    <div id="loginForm"></div>
+    <script type="text/babel">
+        var LoginformHTML =
+            <div className = "container-fluid">
+            <div className = "row">
+            <div className = "col-lg-6">
+                <form>
+                    <h1>Login Form</h1>
+                    <hr/>
+                    <div className="form-group">
+                        <label for="userInput">Username</label>
+                        <input type="text" className="form-control" 
+                        id ="userInput" placeholder="Your Username"/>
+                    </div>
+
+                    <div className="form-group">
+                        <label for="passwordInput">Password</label>
+                        <input type="password" className="form-control" 
+                        id ="passwordInput" placeholder="Your Password"/>
+                    </div>
+
+                    <button type="submit" className="btn btn-default
+                        col-xs-offset-9 col-xs-3">Submit</button>
+
+                </form>
+            </div>           
+           </div>           
+            </div>
+        
+    </script>
+</body>
+</html>
